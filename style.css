@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #nav a{
+        width: 45% !important;
+    }
+    .navbar-brand{
+        margin-left: 1px !important;
+    }
+    #serv h4, p{
+        text-align: center !important;
+    }
+    #bg{
+        height: 300px;
+    }
+    #pra{
+        margin-top: -240px;
+        /* width: 90%; */
+        font-size: 20px;
+    }
+    #pra p{
+        font-size: 15px;
+    }
+    .cards{
+        display: block !important;
+        width: 50%;
+    }
+    .card{
+        width: 200% !important;
+    }
+    #cont{
+        width: 110%;
+        margin-left: -41px;
+    }
+    .about-section-page{
+       font-size: 20px;
+        width: 300px !important;
+    }
+    #footer{
+        display: block !important;
+        text-align: center;
+        font-size: 20px;
+    }
+    #foot{
+        font-size: 15px;
+    }
+
+  }
+
+.contact-us {
+    width: 70%;
+    margin: auto;
+    box-shadow: 0 0 10px rgb(192, 192, 192);
+    /* padding: 10px; */
+    display: flex;
+    border-radius: 15px;
+}
+.about-image {
+    background: url('images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    border-radius: 15px 0 0 15px;
+}
+.abour-form {
+    /* width: auto; */
+    width: 500px;
+    padding: 20px;
+}
+.about-section{
+    background: linear-gradient(rgba(55, 120, 241, 0.5)50%, rgba(55, 120, 241, 0.5)50%), url("images/field.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-section-page{
+    background-color: #fff;
+    padding: 1px;
+    border-radius: 22px;
+}
+
+
